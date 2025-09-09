@@ -2,23 +2,23 @@
    #include <stdio.h>
 
 int main() {
-    // carta 1 florianópolis
+    
     int codigocidade = 48;
     char letra = 'f';
     char cidade[50] = "florianópolis";
     int população = 587.486;
     float area = 675.4;
     float pib = 23.550;
-    int pontosturisticos = 30;
+    int pontoturisticos = 30;
 
-    // carta 2 criciuma
+    
     int codigocidade = 42;
     char letra = 'c';
     char cidade[30] = "criciuma";
     int população = 227.438;
     float area = 235.6;
     float pib = 10.1;
-    int pontosturisticos = 15;
+    int pontoturisticos = 15;
  
     printf("Digite sua cidade: \n");
     scanf("%s", &cidade);
@@ -39,7 +39,7 @@ int main() {
     scanf("%f", &pib);
 
     prinf("Digite o pontoturistico: \n");
-    scanf("%d", &pontosturisticos);
+    scanf("%d", &pontoturisticos);
     
 
     return 0;
