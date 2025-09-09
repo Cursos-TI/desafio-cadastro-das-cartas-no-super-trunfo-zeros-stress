@@ -3,23 +3,31 @@
 
 int main() {
     
-    int codigocidade = 48;
-    char letra = 'f';
-    char cidade[50] = "florianópolis";
-    int população = 587.486;
-    float area = 675.4;
-    float pib = 23.550;
-    int pontoturisticos = 30;
+    int codigocidade1 = 48;
+    char letra1 = 'f';
+    char cidade1[50] = "florianópolis";
+    int populacao1 = 587486;
+    float area1 = 675.4;
+    float pib1 = 23.550;
+    int pontoturisticos1 = 30;
 
-    
-    int codigocidade = 42;
-    char letra = 'c';
-    char cidade[30] = "criciuma";
-    int população = 227.438;
-    float area = 235.6;
-    float pib = 10.1;
-    int pontoturisticos = 15;
+
+    int codigocidade2 = 42;
+    char letra2 = 'c';
+    char cidade2[30] = "criciuma";
+    int populacao2 = 227438;
+    float area2 = 235.6;
+    float pib2 = 10.1;
+    int pontoturisticos2 = 15;
  
+    char cidade[50];
+    int codigocidade;
+    char letra;
+    int populacao;
+    float area;
+    float pib;
+    int pontoturisticos;
+
     printf("Digite sua cidade: \n");
     scanf("%s", &cidade);
 
@@ -30,7 +38,7 @@ int main() {
     scanf("%s", &letra);
 
     printf("Digite a população: \n");
-    scanf("%d", &população);
+    scanf("%d", &populacao);
 
     printf("Digite sua area: \n");
     scanf("%f", &area);
@@ -38,7 +46,7 @@ int main() {
     printf("Digite o pib: \n");
     scanf("%f", &pib);
 
-    prinf("Digite o pontoturistico: \n");
+    printf("Digite o pontoturistico: \n");
     scanf("%d", &pontoturisticos);
     
 
