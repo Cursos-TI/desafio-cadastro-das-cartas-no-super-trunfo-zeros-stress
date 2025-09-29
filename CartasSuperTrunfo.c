@@ -10,6 +10,8 @@ int main() {
     float area1 = 675.4;
     float pib1 = 23.550;
     int pontoturisticos1 = 30;
+    float densidadepopulacional1 = populacao1 / area1;
+    float pibpercapita1 = populacao1 / pib1
 
 
     int codigocidade2 = 42;
@@ -19,6 +21,8 @@ int main() {
     float area2 = 235.6;
     float pib2 = 10.1;
     int pontoturisticos2 = 15;
+    float densidadepopulacional2 = populacao2 / area2;
+    float pibpercapita2 = pib2 / populacao2;
  
     char cidade[50];
     int codigocidade;
@@ -27,6 +31,8 @@ int main() {
     float area;
     float pib;
     int pontoturisticos;
+    float densidadepopulacional;
+    float pibpercapita;
 
     printf("Digite sua cidade: \n");
     scanf("%s", &cidade);
@@ -48,6 +54,9 @@ int main() {
 
     printf("Digite o pontoturistico: \n");
     scanf("%d", &pontoturisticos);
+
+    printf("Densidade populacional %.2f\n", densidadepopulacional);
+    printf("Pib Per Capita %.2f\n", pibpercapita);
     
 
     return 0;
