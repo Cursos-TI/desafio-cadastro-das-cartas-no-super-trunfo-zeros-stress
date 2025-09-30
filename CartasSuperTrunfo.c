@@ -1,7 +1,7 @@
 
    #include <stdio.h>
 
-int main() {
+    int main() {
     
     int codigocidade1 = 48;
     char letra1 = 'f';
@@ -11,10 +11,9 @@ int main() {
     float pib1 = 23.550;
     int pontoturisticos1 = 30;
     float densidadepopulacional1 = populacao1 / area1;
-    float pibpercapita1 = populacao1 / pib1
+    float pibpercapita1 = populacao1 / pib1;
 
-
-    int codigocidade2 = 42;
+    int codigodacidade2 = 42;
     char letra2 = 'c';
     char cidade2[30] = "criciuma";
     int populacao2 = 227438;
@@ -31,8 +30,6 @@ int main() {
     float area;
     float pib;
     int pontoturisticos;
-    float densidadepopulacional;
-    float pibpercapita;
 
     printf("Digite sua cidade: \n");
     scanf("%s", &cidade);
@@ -55,8 +52,15 @@ int main() {
     printf("Digite o pontoturistico: \n");
     scanf("%d", &pontoturisticos);
 
-    printf("Densidade populacional %.2f\n", densidadepopulacional);
-    printf("Pib Per Capita %.2f\n", pibpercapita);
+    float densidadepopulacional = populacao / area;
+    float pibpercapita = pib / area;
+
+    printf("Densidade Populacional 1 %.2f\n", densidadepopulacional1);
+    printf("Pib Per Capita 1 %.2f\n", pibpercapita1);
+
+    printf("Densidade Populacional 2 %.2f\n", densidadepopulacional2);
+    printf("Pib Per Capita 2 %.2f\n", pibpercapita2);
+
     
 
     return 0;
